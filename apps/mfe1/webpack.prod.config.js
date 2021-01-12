@@ -2,7 +2,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
 	output: {
-		publicPath: "https://mfe-shell.netlify.app/",
+		publicPath: "https://mfe-flights.netlify.app/",
 		uniqueName: "mfe1"
 	},
 	optimization: {
