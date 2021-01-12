@@ -2,7 +2,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
 	output: {
-		publicPath: "/mfe1/",
+		publicPath: "https://mfe-shell.netlify.app/",
 		uniqueName: "mfe1"
 	},
 	optimization: {
@@ -15,7 +15,7 @@ module.exports = {
 			// For remotes (please adjust)
 			name: "mfe1",
 			library: { type: "var", name: "mfe1" },
-			filename: "flightsRemoteEntry.js",
+			filename: "remoteEntry.js",
 			exposes: {
 				'./Module': './apps/mfe1/src/app/flights/flights.module.ts',
 			},

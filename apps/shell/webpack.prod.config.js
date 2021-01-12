@@ -12,7 +12,7 @@ module.exports = {
 	plugins: [
 		new ModuleFederationPlugin({
 			remotes: {
-				'mfe1': "mfe1@flightsRemoteEntry.js"
+				'mfe1': "mfe1@https://mfe-flights.netlify.app/"
 			},
 			shared: ["@angular/core", "@angular/common", "@angular/router"]
 		})
