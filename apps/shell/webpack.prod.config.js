@@ -12,7 +12,7 @@ module.exports = {
 	plugins: [
 		new ModuleFederationPlugin({
 			remotes: {
-				'mfe1': "mfe1@/mfe1/remoteEntry.js"
+				'mfe1': "mfe1@flightsRemoteEntry.js"
 			},
 			shared: ["@angular/core", "@angular/common", "@angular/router"]
 		})

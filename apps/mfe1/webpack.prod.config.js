@@ -15,7 +15,7 @@ module.exports = {
 			// For remotes (please adjust)
 			name: "mfe1",
 			library: { type: "var", name: "mfe1" },
-			filename: "remoteEntry.js",
+			filename: "flightsRemoteEntry.js",
 			exposes: {
 				'./Module': './apps/mfe1/src/app/flights/flights.module.ts',
 			},
